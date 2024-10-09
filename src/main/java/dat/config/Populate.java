@@ -14,6 +14,7 @@ public class Populate {
 
         EntityManagerFactory emf = HibernateConfig.getEntityManagerFactory();
 
+
         Set<Room> calRooms = getCalRooms();
         Set<Room> hilRooms = getHilRooms();
 
